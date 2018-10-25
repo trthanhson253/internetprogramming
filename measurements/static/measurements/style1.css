@@ -1,0 +1,65 @@
+body{
+    background:url('1.jpg');
+}
+.main{
+    width:1200px;
+    margin:0px auto;
+    font-size:20px;
+    color:black;
+    border: solid;
+}
+#content{
+    background-color: khaki;
+    margin:10px;
+    color:black;
+}
+#a1{
+    color:blue;
+    font-size:25px;
+    font-weight:bold ;
+}
+#b1{
+    color:green;
+    font-size:25px;
+    font-weight:bold ;
+}
+#c1{
+    color:red;
+    font-size:25px;
+    font-weight:bold ;
+}
+#d1{
+    color:brown;
+    font-size:25px;
+    font-weight:bold ;
+}
+#e1{
+    color:pink;
+    font-size:25px;
+    font-weight:bold ;
+}
+#a2{
+    background-color: blue;
+    font-size:25px;
+    font-weight:bold ;
+}
+#b2{
+    background-color:green;
+    font-size:25px;
+    font-weight:bold ;
+}
+#c2{
+    background-color:red;
+    font-size:25px;
+    font-weight:bold ;
+}
+#d2{
+    background-color:brown;
+    font-size:25px;
+    font-weight:bold ;
+}
+#e2{
+    background-color:pink;
+    font-size:25px;
+    font-weight:bold ;
+}

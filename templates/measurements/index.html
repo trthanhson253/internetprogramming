@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lisf Of Area</title>
+</head>
+<body>
+    <h1> List Of Areas </h1>
+
+
+    <table style="width:50%;border: 1px solid black; text-align: center;">
+        <tbody>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Number of Locations</th>
+                <th>Average Measurment</th>
+                <th>Categories</th>
+            </tr>
+            <tr>
+                <td >
+                {% for area in area_objects %}
+                <p>{{ area.id }}</p>
+                {% endfor %}
+                </td>
+
+
+                <td>
+                {% for area in area_objects %}
+                <p>{{ area.name }}</p>
+                {% endfor %}
+            </td>
+
+
+            <td>
+                {% for area in area_objects %}
+                <p>{{ area.number_of_locations }}</p>
+                {% endfor %}
+            </td>
+
+            <td>
+                {% for area in area_objects %}
+
+                <p>{{ area.average_measurement }}</p>
+                {% endfor %}
+            </td>
+
+            <td>
+                {% for area in area_objects %}
+                <p>{{ area.category_names }}</p>
+                {% endfor %}
+            </td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+<input type="button" value="Go Back" onclick="window.history.back()" style="background: yellow; font-size:35px;"/>
+
+</body>
+</html>

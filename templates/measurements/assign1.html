@@ -1,0 +1,50 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'measurements/style1.css' %}"/>
+    <script type="text/javascript" src="{% static 'measurements/java1.js' %}"></script>
+</head>
+<body>
+
+    <div class="main">
+        <div id="content">
+            <p>Kennesaw State University prides itself on offering a premiere, personalized educational experience for leadership and engagement within a diverse nation and world.
+                This educational experience is achieved through recognition and appreciation of the differing backgrounds and experiences reflected within the University community.
+                We firmly believe that sensitivity to diversity, equity, and global interdependence is central to fostering supportive living, learning, and working environments.
+                A welcoming and inclusive climate is critical to attaining Kennesaw State University’s research, scholarship, teaching, and engagement goals.
+                The University will engage our students, faculty, staff, and other stakeholders in order to achieve an inclusive and welcoming campus community.</p>
+            <p> Kennesaw State University offers more than 150 undergraduate, graduate and doctoral degrees to its more than 35,000
+                students. With 13 colleges on two metro Atlanta campuses, Kennesaw State is a member of the University System of Georgia and the third-largest university in the state.
+                The university's vibrant campus culture, diverse population, strong global ties and entrepreneurial spirit, draw students from throughout the region and from 92
+                countries across the globe. The university’s alumni network is 100,000 strong. A Carnegie-designated doctoral institution, it is one of the 50 largest public
+                institutions in the country. </p>
+        </div>
+    </div>
+
+    <div class="main">
+        <p>
+            Foreground:
+            <input type="button" id="a1" value="A" onclick="change_a1()"/>
+            <input type="button" id="b1" value="B" onclick="change_b1()"/>
+            <input type="button" id="c1" value="C" onclick="change_c1()"/>
+            <input type="button" id="d1" value="D" onclick="change_d1()"/>
+            <input type="button" id="e1" value="E" onclick="change_e1()"/>
+        </p>
+        <p>
+            Background:
+            <input type="button" id="a2" value="A" onclick="change_a2()"/>
+            <input type="button" id="b2" value="B" onclick="change_b2()"/>
+            <input type="button" id="c2" value="C" onclick="change_c2()"/>
+            <input type="button" id="d2" value="D" onclick="change_d2()"/>
+            <input type="button" id="e2" value="E" onclick="change_e2()"/>
+        </p>
+    </div>
+
+<input type="button" value="Go Back" onclick="window.history.back()" style="background: yellow; font-size:35px;"/>
+
+</body>
+</html>

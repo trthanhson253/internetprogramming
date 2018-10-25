@@ -1,0 +1,35 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'measurements/style2.css' %}">
+    <script type="text/javascript" src="{% static 'measurements/java2.js' %}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="holder">
+    <span id="input">Input</span>
+    <span id="length">Length</span>
+    <div id="a">
+        <div id="b">
+            <span class="num">1</span>
+            <input class="inp" type="text" value="" onkeyup="show_length(this)"/>
+            <span class="len">0</span>
+
+        </div>
+    </div>
+    <div id="button">
+        <button value="Add Cell" onclick="add_cell()">Add Cell</button>
+        <button value="Remove Cell" onclick="remove_cell()">Remove Cell</button>
+        <button value="Sort" onclick="sort()">Sort</button>
+
+    </div>
+
+</div>
+
+<input type="button" value="Go Back" onclick="window.history.back()" style="background: yellow; font-size:35px;"/>
+</body>
+</html>

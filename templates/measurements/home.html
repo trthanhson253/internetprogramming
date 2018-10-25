@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'measurements/myStyles.css' %}" />
+</head>
+<body>
+<div id="container">
+    <div id="header">
+
+        <div id="logo2"><h1> Son T Tran, B.S, Kennesaw State University</h1></div>
+    </div>
+    <div id="main">
+        <div class="content">
+            <div id="image"><p><img src="{% static 'measurements/image.jpg' %}" width=200 height=200 ></p></div>
+            <div id="cont">
+                <p><h3>About Me</h3></p>
+                <p>I am currently a senior student at Kennesaw State University expecting to graduate in Spring, 2017.</p>
+                <p>Originally , I am from Vietnam, and have been living in the United States for over 4 years.  </p>
+                <p>My programming skills include: C++, Java, SQL , CSS, Javascript ...</p>
+                <p>After finishing my degree at Kennesaw State University, I hope that I can work in Web Development field
+                and become a professional web developer.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <p><h2>Menu</h2></p>
+            <p><a href="/"><button class="button"> Home </button></a></p>
+            <p></p><a href="assign1"><button class="button"> Assignment 1 </button></a></p>
+
+            <p><a href="assign2"><button class="button"> Assignment 2 </button></a></p>
+            <p><a href="assign5"><button class="button"> Assignment 5  </button></a></p>
+            <p><a href="/measurements"><button class="button"> Final </button></a></p>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer">
+        <span>Copyright (C) 2017 Son T Tran - All Rights Reserved</span>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: dodgerblue;
+}
+#holder {
+    margin: auto;
+    background-color: #b3d4fc;
+    width: 300px;
+    border: 1px solid;
+    padding: 50px;
+}
+
+
+#button {
+    padding-top:20px;
+}
+
+#input{
+    font-weight: bold;
+    margin-left: 75px;
+
+}
+
+#length{
+    font-weight: bold;
+    margin-left: 65px;
+
+}
+
